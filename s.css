@@ -1,0 +1,52 @@
+
+.abt_serv{
+    margin-top: 20%;
+}
+
+.con{
+    margin-top: 15%;
+}
+
+.logo{
+    margin-top: 10%;
+}
+
+.sml{
+    background: none;
+    width: 10%;
+    height: 10%;
+}
+
+.simage img{
+    
+    padding: 2;
+    width: 400px;
+    height: 250px;
+}
+
+@media screen and (max-width: 700px){
+    .abt_serv{
+        margin-top:80%;
+    }
+
+    .def{
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .con{
+        margin-top: 80%;
+
+    }
+
+    .logo{
+        margin-top: 80%;
+    }
+
+    .sml{
+        width: 30%;
+        height: 30%;
+        align-items: center;
+
+    }
+}
